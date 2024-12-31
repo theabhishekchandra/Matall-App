@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="App_theme">#293859</color>
+    <color name="editTextBG">#D9D9D9</color>
+
+    <color name="colorDelivered">#4CAF50</color> <!-- Green for delivered -->
+    <color name="colorPlaced">#FF9800</color> <!-- Orange for placed -->
+    <color name="colorShipped">#2196F3</color> <!-- Blue for shipped -->
+    <color name="colorCancelled">#F44336</color> <!-- Red for cancelled -->
+    <color name="colorProcessing">#9C27B0</color> <!-- Purple for processing -->
+</resources>

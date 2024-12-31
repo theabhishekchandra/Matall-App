@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modules.general.OrderPlaced"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/orderPlace_IMG"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/order_place"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="TODO" />
+    <TextView
+        android:id="@+id/orderPlace_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Order Successfully Placed"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#005A00"
+        android:layout_below="@id/orderPlace_IMG"/>
+    <Button
+        android:id="@+id/backHomeScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back Home Screen"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:shadowColor="#00FF00"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:background="#00FF00"/>
+
+</RelativeLayout>

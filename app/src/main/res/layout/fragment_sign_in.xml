@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        tools:context=".login_reg.Activity_login">
+
+        <!-- Your existing layout content goes here -->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/matall_logo"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:text="@string/log_in"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+        <RelativeLayout
+            android:layout_marginTop="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp">
+            <View
+                android:background="@drawable/edittxt_bg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+
+                    <View
+                        android:background="@drawable/rectangle_shape"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/call"/>
+
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/loginphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Phone Number"
+                    android:background="@drawable/edittxt_bg"
+                    android:inputType="text"
+                    android:padding="12dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp">
+            <View
+                android:background="@drawable/edittxt_bg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+
+                    <View
+                        android:background="@drawable/rectangle_shape"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/lock"/>
+
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Password"
+                    android:background="@drawable/edittxt_bg"
+                    android:inputType="textPassword"
+                    android:padding="12dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_primary"
+            android:text="@string/log_in"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="22dp"/>
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_marginTop="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <RelativeLayout android:id="@+id/group_10"
+            android:layout_marginTop="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView android:id="@+id/line_1"
+                android:src="@drawable/line_1"
+                android:contentDescription="line_1"
+                android:layout_marginStart="187dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="132.09dp"
+                android:layout_height="1dp" />
+
+            <ImageView android:id="@+id/line_2"
+                android:src="@drawable/line_2"
+                android:contentDescription="line_2"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="132.09dp"
+                android:layout_height="1dp" />
+
+            <TextView android:id="@+id/or"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="148dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="27.4dp"
+                android:layout_height="25.4dp"
+                android:text="OR"
+                />
+
+        </RelativeLayout>
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_secondry"
+            android:text="@string/sign_up"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

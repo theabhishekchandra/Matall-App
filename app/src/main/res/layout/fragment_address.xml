@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modules.general.Address">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/inner_relative_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AddressActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <!-- Text for selecting delivery address -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select delivery address"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+
+                <!-- RelativeLayout for entering name -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp">
+
+                    <View
+                        android:background="@drawable/edittxt_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp">
+
+                            <View
+                                android:background="@drawable/rectangle_shape"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp" />
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/user" />
+                        </RelativeLayout>
+
+                        <EditText
+                            android:id="@+id/editTextName"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:hint="Name"
+                            android:backgroundTint="@color/editTextBG"
+                            android:textColorHint="#7D7C7E"
+                            android:background="@drawable/edittxt_bg"
+                            android:inputType="text"
+                            android:padding="12dp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <!-- EditText for entering phone number -->
+
+                <!-- RelativeLayout for entering name -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp">
+
+                    <View
+                        android:background="@drawable/edittxt_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp">
+
+                            <View
+                                android:background="@drawable/rectangle_shape"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp" />
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/call" />
+                        </RelativeLayout>
+
+                        <EditText
+                            android:id="@+id/editTextPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:hint="Phone Number"
+                            android:backgroundTint="@color/editTextBG"
+                            android:textColorHint="#7D7C7E"
+                            android:background="@drawable/edittxt_bg"
+                            android:inputType="number"
+
+                            android:maxLength="10"
+                            android:padding="12dp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <!-- RelativeLayout for entering name -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp">
+
+                    <View
+                        android:background="@drawable/edittxt_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp">
+
+                            <View
+                                android:background="@drawable/rectangle_shape"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp" />
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/location" />
+                        </RelativeLayout>
+
+                        <EditText
+                            android:id="@+id/editTextAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:hint="House No/Flat No"
+                            android:backgroundTint="@color/editTextBG"
+                            android:textColorHint="#7D7C7E"
+                            android:background="@drawable/edittxt_bg"
+                            android:inputType="text"
+                            android:padding="12dp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <!-- RelativeLayout for entering Address -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp">
+
+                    <View
+                        android:background="@drawable/edittxt_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp">
+
+                            <View
+                                android:background="@drawable/rectangle_shape"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp" />
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/location" />
+                        </RelativeLayout>
+
+                        <EditText
+                            android:id="@+id/editTextAddress1"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:hint="Locality/Building Name"
+                            android:backgroundTint="@color/editTextBG"
+                            android:textColorHint="#7D7C7E"
+                            android:background="@drawable/edittxt_bg"
+                            android:inputType="text"
+                            android:padding="12dp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <!-- RelativeLayout for entering name -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp">
+
+                    <View
+                        android:background="@drawable/edittxt_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp">
+
+                            <View
+                                android:background="@drawable/rectangle_shape"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp" />
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/location" />
+                        </RelativeLayout>
+
+                        <EditText
+                            android:id="@+id/editTextAddress2"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:hint="City"
+                            android:backgroundTint="@color/editTextBG"
+                            android:textColorHint="#7D7C7E"
+                            android:background="@drawable/edittxt_bg"
+                            android:inputType="text"
+                            android:padding="12dp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <!-- RelativeLayout for entering name -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp">
+
+                    <View
+                        android:background="@drawable/edittxt_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp">
+
+                            <View
+                                android:background="@drawable/rectangle_shape"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp" />
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/location" />
+                        </RelativeLayout>
+
+                        <EditText
+                            android:id="@+id/editTextAddress3"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:hint="Pin Code"
+                            android:backgroundTint="@color/editTextBG"
+                            android:textColorHint="#7D7C7E"
+                            android:background="@drawable/edittxt_bg"
+                            android:inputType="number"
+                            android:maxLength="6"
+                            android:padding="12dp" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <!-- Button for checkout -->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/address_checkout_btn"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/App_theme"
+                    android:background="@drawable/edittxt_bg"
+                    android:text="Check Out"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "294479186493",
+    "project_id": "matall-af0f2",
+    "storage_bucket": "matall-af0f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294479186493:android:73167efede26bef6537854",
+        "android_client_info": {
+          "package_name": "com.adventitous.matall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgWGQBUS32Cw7CoUSp6jax0_53Xy0OgaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
